@@ -15,10 +15,13 @@ module.exports = {
       gray: '#D9D9D9',
       yellow: '#FEDF00',
       darkgreen: '#023020',
-      backgreen: '#02302080'
+      backgreen: '#02302080',
+      brightgreen: '#AAFF00',
     },
     fontSize: {
+      'xs': '12px',
       's': '16px',
+      'sx': '20px',
       'm': '24px',
       'l': '32px',
       'lx': '36px',
