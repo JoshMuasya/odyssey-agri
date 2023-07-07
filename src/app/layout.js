@@ -1,6 +1,8 @@
 import About from './components/about'
 import Contact from './components/contact'
+import Gift from './components/giftcard'
 import Navbar from './components/navbar'
+import Testimonials from './components/testimonials'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -18,6 +20,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <About />
+        <Testimonials />
+        <Gift />
         <Contact />
       </body>
     </html>

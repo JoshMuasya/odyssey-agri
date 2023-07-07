@@ -31,19 +31,19 @@ const Navbar = () => {
             <ul 
                 style={{color: `${textColor}`}}
                 className='flex flex-row'>
-                <li className='p-4 font-bold'>
+                <li className='p-4 font-bold font-mont text-xs hover:text-s'>
                     <Link href="/">
-                        Home
+                        Hogar
                     </Link>
                 </li>
-                <li className='p-4 font-bold'>
+                <li className='p-4 font-bold font-mont text-xs hover:text-s'>
                     <Link href="#about">
-                        About
+                        Acerca de
                     </Link>
                 </li>
-                <li className='p-4 font-bold'>
+                <li className='p-4 font-bold font-mont text-xs hover:text-s'>
                     <Link href="#contact">
-                        Contact
+                        Contacto
                     </Link>
                 </li>
             </ul>
