@@ -26,16 +26,92 @@ const Contact = () => {
 
         {/* Details */}
         <div className='flex flex-col md:flex-row justify-center align-middle items-center pb-12 md:pb-16 lg:pb-20'>
-            {/* Address */}
             <div className='flex flex-col justify-center align-middle items-center py-3 md:pr-3 lg:pr-10'>
-                {/* Street */}
-                <div className='text-brightgreen text-center font-mont text-s md:text-sx lg:text-m font-bold pb-5'>
-                    Calle 115, Bogota Colombia
+                {/* Address 1*/}
+                <div className='flex flex-col justify-center align-middle items-center py-3 md:pr-3 lg:pr-10'>
+                    {/* Name */}
+                    <div className='text-brightgreen text-center font-mont text-xs md:text-s lg:text-sx font-bold'>
+                        Colombia
+                    </div>
+                    {/* Street */}
+                    <div className='text-brightgreen text-center font-mont text-s md:text-sx lg:text-m font-bold pb-1'>
+                        Calle 115, Bogota Colombia
+                    </div>
+
+                    {/* Phone */}
+                    <div className='text-brightgreen font-mont text-s md:text-sx lg:text-m font-bold'>
+                        +57 8785412542
+                    </div>
                 </div>
 
-                {/* Phone */}
-                <div className='text-brightgreen font-mont text-s md:text-sx lg:text-m font-bold'>
-                    +57 8785412542
+                {/* Address 1*/}
+                <div className='flex flex-col justify-center align-middle items-center py-3 md:pr-3 lg:pr-10'>
+                    {/* Name */}
+                    <div className='text-brightgreen text-center font-mont text-xs md:text-s lg:text-sx font-bold'>
+                        Kenya
+                    </div>
+                    {/* Street */}
+                    <div className='text-brightgreen text-center font-mont text-s md:text-sx lg:text-m font-bold pb-1'>
+                        Ring Road Westlands Nairobi, Kenya
+                    </div>
+
+                    {/* Phone */}
+                    <div className='text-brightgreen font-mont text-s md:text-sx lg:text-m font-bold'>
+                        +254 20 521 0324
+                    </div>
+                </div>
+
+                {/* Address 1*/}
+                <div className='flex flex-col justify-center align-middle items-center py-3 md:pr-3 lg:pr-10'>
+                    {/* Name */}
+                    <div className='text-brightgreen text-center font-mont text-xs md:text-s lg:text-sx font-bold'>
+                        India
+                    </div>
+                    {/* Street */}
+                    <div className='text-brightgreen text-center font-mont text-s md:text-sx lg:text-m font-bold pb-1'>
+                        28 Shrinath Shopping Centre, <br />
+                        D J Rd, Vile Parle West (west)
+                    </div>
+
+                    {/* Phone */}
+                    <div className='text-brightgreen font-mont text-s md:text-sx lg:text-m font-bold'>
+                        02226148845
+                    </div>
+                </div>
+
+                {/* Address 1*/}
+                <div className='flex flex-col justify-center align-middle items-center py-3 md:pr-3 lg:pr-10'>
+                    {/* Name */}
+                    <div className='text-brightgreen text-center font-mont text-xs md:text-s lg:text-sx font-bold'>
+                        Brazil
+                    </div>
+                    {/* Street */}
+                    <div className='text-brightgreen text-center font-mont text-s md:text-sx lg:text-m font-bold pb-1'>
+                        Rua Varzelândia 670
+                    </div>
+
+                    {/* Phone */}
+                    <div className='text-brightgreen font-mont text-s md:text-sx lg:text-m font-bold'>
+                        (11) 7680-2724
+                    </div>
+                </div>
+
+                {/* Address 1*/}
+                <div className='flex flex-col justify-center align-middle items-center py-3 md:pr-3 lg:pr-10'>
+                    {/* Name */}
+                    <div className='text-brightgreen text-center font-mont text-xs md:text-s lg:text-sx font-bold'>
+                        Chile
+                    </div>
+                    {/* Street */}
+                    <div className='text-brightgreen text-center font-mont text-s md:text-sx lg:text-m font-bold pb-1'>
+                        Calle Caupolicán 714, <br />
+                        La Ligua, Chile
+                    </div>
+
+                    {/* Phone */}
+                    <div className='text-brightgreen font-mont text-s md:text-sx lg:text-m font-bold'>
+                        +5634334578
+                    </div>
                 </div>
             </div>
 

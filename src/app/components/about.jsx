@@ -6,7 +6,7 @@ import Link from 'next/link';
 const About = () => {
   return (
     // About
-    <div className='py-3 flex flex-col lg:flex-row justify-around align-middle items-center'>
+    <div className='py-5 flex flex-col lg:flex-row justify-around align-middle items-center'>
         {/* Left */}
         <div className='py-5 lg:py-0 px-2'>
             {/* Image */}

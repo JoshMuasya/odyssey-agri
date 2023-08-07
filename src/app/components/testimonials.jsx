@@ -9,7 +9,7 @@ import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 const Testimonials = () => {
   return (
     // Testimonials
-    <div>
+    <div className='pt-5 pb-5'>
         {/* Title */}
         <div className='flex flex-col justify-center align-middle items-center text-center'>
             {/* Title */}
